@@ -1,0 +1,58 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Square - Red theme */
+.square {
+    fill: #ffcccc;
+    stroke: #ff0000;
+    stroke-width: 5px;
+}
+
+/* Rectangle - Blue theme */
+.rectangle {
+    fill: #ccccff;
+    stroke: #0000ff;
+    stroke-width: 5px;
+}
+
+/* Circle - Green theme with animation */
+.circle {
+    fill: #ccffcc;
+    stroke: #00ff00;
+    stroke-width: 5px;
+}
+
+/* Ellipse - Purple theme */
+.ellipse {
+    fill: #ffccff;
+    stroke: #ff00ff;
+    stroke-width: 5px;
+}
+
+/* Animation for the circle */
+.animated-shape {
+    animation: colorChange 3s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        fill: #ccffcc;
+        stroke: #00ff00;
+    }
+    50% {
+        fill: #ffffcc;
+        stroke: #ffaa00;
+    }
+    100% {
+        fill: #ffcccc;
+        stroke: #ff0000;
+    }
+}
